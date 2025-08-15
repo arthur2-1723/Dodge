@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodge! - Windows</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #1e1e1e;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            color: #50c878;
+            margin: 0;
+        }
+        main {
+            max-width: 800px;
+            padding: 20px;
+        }
+        .button {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 12px 24px;
+            background-color: #50c878;
+            color: #121212;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+            transition: 0.2s;
+        }
+        .button:hover {
+            background-color: #3da45c;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            font-size: 14px;
+            background-color: #1e1e1e;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Dodge! 🟩⬛🟥</h1>
+</header>
+
+<main>
+    <div class="section">
+        <h2>Descrição</h2>
+        <p>Jogo viciante para PyOS e Windows. Desvie dos blocos que caem, teste seus reflexos e tente bater seu recorde! Controle o quadrado com setas ou WASD. A cada segundo, a dificuldade aumenta!</p>
+    </div>
+
+    <div class="section">
+        <h2>Controles</h2>
+        <ul>
+            <li><strong>Setas ou WASD</strong> → mover</li>
+            <li><strong>P</strong> → pausar/despausar</li>
+            <li><strong>R</strong> → reiniciar (apenas após game over)</li>
+            <li><strong>ESC</strong> → sair</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Download</h2>
+        <a href="dist/Dodge! Instalador PT-BR.exe" class="button" download>Baixar para Windows</a>
+        <a href="dodge.py" class="button" download>Baixar script Python</a>
+        <p>Você precisará iniciar o jogo como administrador, não se preocupe, ele é seguro. O código-fonte do nosso jogo está no GitHub.</p>
+        <a href=""></a>
+    </div>
+
+    <div class="section">
+        <h2>Recursos</h2>
+        <ul>
+            <li>Pontuação contínua baseada no tempo de sobrevivência.</li>
+            <li>Recorde salvo localmente.</li>
+            <li>Interface gráfica simples com Pygame.</li>
+            <li>Jogo rápido e viciante.</li>
+        </ul>
+    </div>
+</main>
+
+<footer>
+    © 2025 Dodge! | Desenvolvido por Arthur
+</footer>
+
+</body>
+</html>
