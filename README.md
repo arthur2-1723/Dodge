@@ -14,7 +14,7 @@ Desvie dos blocos que caem e tente sobreviver o máximo que puder neste jogo sim
 - Pontuação contínua baseada no tempo de sobrevivência.
 - Recorde salvo localmente para você tentar sempre superar.
 - Interface gráfica simples com Pygame, sem necessidade de configuração extra.
-- Jogo rápido e viciante, perfeito para se divertir no terminal ou dentro do PyOS.
+- Jogo rápido e viciante, perfeito para se divertir.
 
 ## Objetivo
 
